@@ -1,11 +1,33 @@
 [Rule]
+//ali
+DOMAIN-SUFFIX,alicdn.com,DIRECT
+DOMAIN-SUFFIX,alipay.com,DIRECT
+DOMAIN-SUFFIX,alipayobjects.com,DIRECT
+DOMAIN-SUFFIX,aliyun.com,DIRECT
+
+//baidu
+DOMAIN-SUFFIX,bdimg.com,DIRECT
+DOMAIN-SUFFIX,baidu.com,DIRECT
+
+//caiyun
+DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+
+// github
+DOMAIN-KEYWORD,github,PROXY
+
 // google
+DOMAIN-SUFFIX,doubleclick.net,REJECT
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-SUFFIX,youtube.com,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
 
 // instagram
 DOMAIN-KEYWORD,instagram,PROXY
+
+//tencent
+DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,qpic.cn,DIRECT
+DOMAIN-SUFFIX,qlogo.cn,DIRECT
 
 // twitter
 DOMAIN-KEYWORD,twitter,PROXY
